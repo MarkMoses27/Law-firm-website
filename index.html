@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marckson Public & Legal Solutions</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-rO8e2I6pXmMlqiMzQxjz/c3SDU5/D3UAM4nU6F4dI5gxIMeQ8W5JfA2sHA5PtoX" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -35,64 +37,100 @@
         </nav>
     </header>
 
-    <main>
-
-        <section class="home-section">
-            <!-- Hero Image -->
-            <div class="hero-image">
-                <!-- Add your hero image here -->
-                <img src="images/lawbg.svg" alt="Hero Image">
-            </div>
+    <main class="Home-page">
+        <div class="wrapper">
             <!-- Hero Content -->
-            <div class="hero-content">
-                <h1>Marckson Law Firm</h1>
-                <p>Marckson Law Firm is a full-service law firm that provides legal services to a diverse group of clients.<br>
-                     We are committed to delivering quality legal services in a timely manner and at a reasonable cost.</p>
+            <div class="home-container hero-content">
+                <h1>Marckson Public & Legal <br> Solutions </h1>
+                <p>A full-service law firm that provides legal services to a diverse group of clients.<br>
+                    We are committed to delivering quality legal services in a timely manner and at a reasonable cost.</p>
                 <a href="#" class="btn">Learn More</a>
-
-            </div>
             </div>
 
-            <!-- FILEPATH: /C:/Users/user/law-firm/index.html -->
-            <!-- BEGIN: booking-form -->
+            <!-- Booking Form -->
             <div class="booking-form">
-                                <h2>Book an Appointment</h2>
-                                <form action="#" method="POST">
-                                    <div class="form-group">
-                                        <label for="name">Name:</label>
-                                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="email">Email:</label>
-                                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="phone">Phone:</label>
-                                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="date">Date:</label>
-                                        <input type="date" id="date" name="date" placeholder="Select a date" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="time">Time:</label>
-                                        <input type="time" id="time" name="time" placeholder="Select a time" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="message">Message:</label>
-                                        <textarea id="message" name="message" rows="4" placeholder="Enter your message" required></textarea>
-                                    </div>
-                                    <div class="form-group">
-                                        <button type="submit">Book Appointment</button>
-                                    </div>
-                                </form>
-                            </div>
-                            <!-- END: booking-form -->
-                         </section>
-                    </main>
-                    
-                    <script src="main.js"></script>
+                <h2>Book an Appointment</h2>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Date:</label>
+                        <input type="date" id="date" name="date" placeholder="Select a date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Time:</label>
+                        <input type="time" id="time" name="time" placeholder="Select a date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Enter your message" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn">Book Appointment</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- END: booking-form -->
+    </main>
 
-                </body>
+    <!-- Practice Section-->
+    <section class="practice-areas">
+        <h1>Practice Areas</h1>
+        <p>What we do best</p>
+        <div class="practice-row">
+            <div class="practice-item business-law">
+                <i class="fas fa-briefcase"></i>
+                <h1>Business Law</h1>
+                <p>Our business law practice provides comprehensive legal services to businesses of all sizes. We assist in contract drafting and negotiation, mergers and acquisitions, and offer ongoing legal support to ensure the smooth operation of your business.</p>
+            </div>
+    
+            <div class="practice-item bankruptcy-law">
+                <i class="fas fa-hand-holding-usd"></i>
+                <h1>Bankruptcy Law</h1>
+                <p>In times of financial distress, our bankruptcy law experts guide individuals and businesses through the complexities of bankruptcy proceedings. We aim to find the best solutions to alleviate financial burdens and pave the way for a fresh start.</p>
+            </div>
+    
+            <div class="practice-item civil-rights-law">
+                <i class="fas fa-balance-scale"></i>
+                <h1>Civil Rights Law</h1>
+                <p>Championing the principles of justice and equality, our civil rights law practice advocates for individuals whose rights have been violated. We handle cases related to discrimination, freedom of speech, and other civil liberties issues.</p>
+            </div>
+    
+            <div class="practice-item criminal-law">
+                <i class="fas fa-balance-scale"></i>
+                <h1>Criminal Law</h1>
+                <p>Our criminal law team is dedicated to defending the rights of individuals facing criminal charges. We provide aggressive representation, strategic defense strategies, and work tirelessly to secure the best possible outcomes for our clients.</p>
+            </div>
+    
+            <div class="practice-item immigration-law">
+                <i class="fas fa-passport"></i>
+                <h1>Immigration Law</h1>
+                <p>Navigating the complex landscape of immigration law, our team assists individuals and families with immigration processes, visa applications, and other immigration-related matters. We are committed to helping clients achieve their immigration goals.</p>
+            </div>
+    
+            <div class="practice-item family-law">
+                <i class="fas fa-users"></i>
+                <h1>Family Law</h1>
+                <p>Our family law practice addresses the legal needs of individuals and families in matters such as divorce, child custody, spousal support, and adoption. We approach each case with sensitivity and strive for fair and equitable resolutions.</p>
+            </div>
+        </div>
+    </section>
+    
+    
 
-                </html>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
